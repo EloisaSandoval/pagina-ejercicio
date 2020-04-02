@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: sans-serif;
+}
+.contenedor {
+    width: 100%;
+    margin: auto;
+}
+.menu-contenedor {
+    display: none;
+}
+.menu {
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    z-index: 1000;
+    background-color: #fff;
+}
+.menu .box-menu {
+    width: 19%;
+    height: 60px;
+    display: inline-block;
+    border-right: 1px dashed;
+    text-align: center;
+    font-size: 11px;
+}
+.menu .box-menu:hover {
+    background-color: #D6EAF8; 
+}
+.menu .accounts {
+    border-right: none;
+}
+a {
+    text-decoration: none;
+}
+.icons {
+    height: 30px;
+    width: 30px;
+    display: block;
+    margin: 9% 36% 9% 36%;
+}
+#opciones .contenedor {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#opciones article {
+    width: 400px;
+    margin: 15px;
+    box-shadow: 1px 8px 10px rgba(0,0,0,.15);
+    border-radius: 15px;
+}
+article .box .tres {
+    width: 120px;
+    padding: 10px;
+    text-align: center;
+}
+article .box h5 {
+    text-transform: uppercase;
+    color: gray;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+article .box {
+    margin: 40px;
+}
+article .box h1 {
+    font-weight: normal;
+    letter-spacing: 1px;
+    font-size: 30px;
+}
+.icon-papel {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+article .box-uno p {
+    font-size: 14px;
+}
+
+article .box-dos h5 {
+    text-align: center;
+}
+article .cero {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+article .box .text {
+    font-size: 14px;
+    text-align: center
+}
+article .box-tres .text {
+    text-align: left;
+}
+article .box-tres .view {
+    text-align: right;
+    color: blue;
+    font-size: 12px;
+}
+article .meses {
+    width: 100%;
+}
+#opciones .contenedor .two hr {
+    margin-top: 85px;
+}
+div .meses .mes {
+    display: inline-block;
+    text-align: center;
+    margin: 15px 8px 15px 8px;
+    font-size: 11px;
+    width: 15%;
+}
+#opciones .cont-bar article {
+    width: 400px;
+    box-shadow: none;
+    display: flex;
+}
+.contenedor-bar .bar {
+    padding: 8px;
+}
+input {
+    width: 22%;
+    border: none;
+    margin-left: 10%;
+}
+.cont-bar .contenedor-bar .dos {
+    color: gray;
+    width: 50%;
+}
+.tres {
+    background-color: blue;
+    border-radius: 50px;
+    color: white;
+    font-size: 13px;
+}
+.cont-bar .contenedor-bar .tres {
+    margin-right: 15px;
+}
+.cont-bar .contenedor-bar .tres i {
+    margin-left: 3px;
+}
+.cont-bar .contenedor-bar .cuatro {
+    background-color: aqua;
+    border-radius: 50%;
+    width: 20px;
+    text-align: center;
+}
+
+@media (min-width:870px) {
+    .cont-bar {
+        width: 100%;
+        max-width: 1080px;
+        margin-right: 6%;
+    }
+    #opciones .cont-bar .contenedor-bar {
+        width: 68%;
+    }
+    #opciones .cont-bar{
+        width: 100%;
+    }
+    input {
+        width: 80%;
+    }
+    .cont-bar .contenedor-bar .dos {
+        width: 50%;
+    }
+    
+    
+}
+
+@media (min-width:1024px) {
+    .contenedor-box {
+        width: 80%;
+        margin-left: 15%;
+    }
+    #opciones .contenedor .one {
+        width: 300px;
+    }
+    #opciones .contenedor .two {
+        width: 400px;
+    }
+    .menu {
+        display: none;
+    }
+    .menu-contenedor {
+        display: block;
+        position: absolute;
+        width: 12%;
+    }
+    .menu-contenedor h3 {
+        letter-spacing: 2px;
+        padding: 10px;
+    }
+    .menu-contenedor a:hover {
+        background: #D6EAF8;
+    }
+    .menu-contenedor a {
+        display: block;
+        padding: 10px;
+    }
+    #opciones article {
+        width: 350px;
+    }
+    #opciones .cont-bar{
+        width: 85%;
+    }
+    
+    
+}
+@media (min-width:1150px) {
+    .cont-bar {
+        width: 100%;
+        max-width: 1080px;
+        margin-right: 5%;
+    }
+    #opciones .cont-bar .contenedor-bar {
+        width: 68%;
+    }
+    #opciones .cont-bar{
+        width: 80%;
+    }
+    input {
+        width: 80%;
+    }
+    .cont-bar .contenedor-bar .dos {
+        width: 60%;
+    }
+    .cont-bar .contenedor-bar .tres {
+        margin-left: 6%;
+    }
+    .cont-bar .contenedor-bar .cuatro {
+        margin-left: 6%;
+    }
+    
+    
+    
+}
+
+
